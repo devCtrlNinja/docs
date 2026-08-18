@@ -27,6 +27,12 @@ Ans: Node.js uses an event-driven, non-blocking I/O architecture. When a request
 
 11. What happens inside Node.js when 10,000 requests arrive at roughly the same time?
 
+12. What is a Thread?
+Ans: A thread is a small unit of execution inside a program.
+
+13. What is callstack?
+Ans: The Call Stack is a LIFO data structure used by JavaScript to keep track of function execution. When a function is called, it is pushed onto the stack, and when it finishes, it is popped from the stack.
+
 
 ## HTTP & Networking
 
