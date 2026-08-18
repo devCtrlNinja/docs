@@ -9,22 +9,23 @@
 1. What actually happens when an HTTP request reaches a Node.js server?
 
 2. Why is Node.js called single-threaded?
+Ans: Node.js is called single-threaded because JavaScript execution happens on a single main thread. The V8 engine executes JavaScript on this thread, and the Event Loop runs on the same main thread. However, Node.js itself can use additional threads internally through libuv for certain operations, so saying Node.js has only one thread is not completely accurate.
 
-3. If Node.js is single-threaded, how can it handle thousands of concurrent requests?
+4. If Node.js is single-threaded, how can it handle thousands of concurrent requests?
 
-4. What exactly is the Node.js event loop?
+5. What exactly is the Node.js event loop?
 
-5. What is libuv and why does Node.js need it?
+6. What is libuv and why does Node.js need it?
 
-6. When does Node.js use the thread pool?
+7. When does Node.js use the thread pool?
 
-7. What happens when I use await with a database query?
+8. What happens when I use await with a database query?
 
-8. What happens when CPU-intensive code runs inside Node.js?
+9. What happens when CPU-intensive code runs inside Node.js?
 
-9. What is the difference between concurrency and parallelism?
+10. What is the difference between concurrency and parallelism?
 
-10. What happens inside Node.js when 10,000 requests arrive at roughly the same time?
+11. What happens inside Node.js when 10,000 requests arrive at roughly the same time?
 
 
 ## HTTP & Networking
