@@ -33,6 +33,11 @@ Ans: A thread is a small unit of execution inside a program.
 13. What is callstack?
 Ans: The Call Stack is a LIFO data structure used by JavaScript to keep track of function execution. When a function is called, it is pushed onto the stack, and when it finishes, it is popped from the stack.
 
+14. What is the Callback Queue?
+Ans: The Callback Queue is a queue where callback functions wait until the Call Stack is empty.
+OR
+Callback Queue stores callbacks that are ready to execute, and the Event Loop moves them to the Call Stack when the Call Stack is empty.
+
 
 ## HTTP & Networking
 
