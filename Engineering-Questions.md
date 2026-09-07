@@ -1,7 +1,10 @@
 # Engineering Questions
 
 ## JavaScript
-
+1. What is a thread, and why is Node.js called single-threaded?
+   Ans: A thread is like a worker that executes instructions or operations. Node.js is called single-threaded because JavaScript code runs on a single main thread, while some background operations can be handled by libuv’s thread pool.
+2. What is the Call Stack in JavaScript, and what happens when a function is called?
+   Ans: 
 ## TypeScript
 1. What is TypeScript, and why would you use TypeScript instead of plain JavaScript for a Node.js backend application?
    Ans: TypeScript is a statically typed superset of JavaScript. It adds features like static typing, interfaces, generics and compile-time type checking. In a Node.js backend, I would use TypeScript because it catches many type-related errors during development, provides better IDE support and makes large codebases easier to maintain and refactor.
